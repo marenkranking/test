@@ -1,0 +1,410 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+
+/******************* CHRIS CHU VIDEO *****************/
+
+.chris-chu-video-div {
+    height: 100vh;
+    padding-bottom: 10px;
+}
+
+.chris-chu-video-div video {
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -999;
+}
+
+
+/********************** INTRO INTERACTIVE ************/
+
+/* body {
+    overflow-x: hidden;
+    background-color: #323232;
+}
+
+.intro-section {
+    width: 200vw;
+    margin-top: 10vh;
+}
+
+.film-panel {
+    height: 90vh;
+    margin: -10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #323232;
+}
+
+.intro-text {
+    position: absolute;
+    top: 22vh;
+    text-align: left;
+    font-family: 'Average', serif;
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+.intro-text p {
+    background-color: rgba(0, 0, 0, .7);
+    color: white;
+    margin-left: 50vw;
+    margin-right: 110vw;
+    margin-bottom: 20px;
+    padding: 20px;
+} */
+
+body {
+    overflow-x: hidden;
+    background-color: #323232;
+    color: white;
+}
+
+.intro-section {
+    width: 200vw;
+    padding-top: 5vh;
+    background-color: #323232;
+
+}
+
+.film-panel img {
+    height: 90vh;
+    margin-left: -60px;
+    padding-bottom: 5vh;
+    z-index: 0;
+    background-color: #323232;
+}
+
+.intro-text {
+    position: absolute;
+    top: 20vh;
+    text-align: left;
+    font-family: 'Average', serif;
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+.intro-text p {
+    background-color: rgba(0, 0, 0, .7);
+    color: white;
+    margin-left: 50vw;
+    margin-right: 110vw;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+/****************** PARALLAX IMAGES ******************/
+
+.parallax-images {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 60px 0;
+}
+
+#chris-chu {
+    background-image: url(media/chrischu.jpg);
+    background-position: center 80%;
+    height: 260vh;
+}
+
+#glass-key {
+    background-image: url(media/glasskey-parallax.jpg);
+    background-position: center 80%;
+    height: 515vh;
+}
+
+#joy {
+    background-image: url(media/joy.jpg);
+    background-position: left 13%;
+    background-size: 115%;
+    height: 300vh;
+}
+
+.scroll-image-div {
+    position: absolute;
+    margin-top: 100vh;
+}
+
+.scroll-image-div figure {
+    margin-bottom: 200px;
+}
+
+.image-and-caption-h {
+    margin-right: 25vw;
+    margin-left: 25vw;
+}
+
+.scroll-image-horizontal {
+    width: 50vw;
+}
+
+.image-and-caption-v {
+    margin-right: 35vw;
+    margin-left: 35vw;
+}
+
+.scroll-image-vertical {
+    width: 30vw;
+}
+
+.image-and-caption-film {
+    margin-right: 55vw;
+    margin-left: 15vw;
+}
+
+.scroll-image-film {
+    width: 22vw;
+}
+
+cite {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-shadow: 1px 0 5px black;
+}
+
+
+/******************** GRAPH ********************/
+
+#graph {
+    width: 80%;
+    padding-left: 13%;
+    /* padding-right: 27%; */
+    margin-top: 50px;
+    position: sticky;
+    top: 18vh;
+}
+
+.graph-section-container {
+    display: flex;
+    flex: wrap;
+}
+
+.graph-div {
+    width: 50%;
+}
+
+.graph-text-div {
+    width: 50%;
+}
+
+.graph-text-div p, .graph-text-div h4 {
+    padding-left: 10%;
+    padding-right: 25%;
+    margin-bottom: 20px;
+}
+
+#below-graph {
+    margin-top: 100px;
+}
+
+
+/******************** ILLOS ********************/
+
+.illo {
+    width: 35%;
+    padding-left: 32%;
+    padding-right: 32%;
+}
+
+#coffee-animation {
+    margin-top: -8vh;
+    margin-bottom: -15vh;
+}
+
+#develop-animation {
+    margin-top: 0;
+    margin-bottom: -2vh;
+}
+
+
+/************* HEADER (HED, DEK, BYLINE) **************/
+
+.article-top-content {
+    margin-top: 21vh;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    text-transform: uppercase;
+    text-align: center;
+    position: fixed;
+    z-index: -1;
+}
+
+.article-hed {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+    font-size: 9.2vw;
+    margin-bottom: 0;
+    line-height: 1.1em;
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: .25vw white;
+}
+
+#highlight {
+    color: rgba(200, 150, 36, .8);
+}
+
+.article-dek {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 800;
+    font-size: 4.5vw;
+    margin-top: 15px;
+    line-height: 1.1em;
+}
+
+.article-byline {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+.subhed {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    padding-left: 32%;
+    padding-right: 32%;
+    text-decoration: underline rgb(200, 150, 36) 9px;
+}
+
+
+/************* BODY TEXT **************/
+
+.article-body {
+    text-align: left;
+    padding-top: 1vh;
+    padding-bottom: 5vh;
+    font-family: 'Average', serif;
+    font-size: 20px;
+    line-height: 1.6em;
+    background-color: #323232;
+}
+
+.article-body > p {
+    margin-bottom: 20px;
+    padding-left: 32%;
+    padding-right: 32%;
+}
+
+
+/************* MOBILE STYLING **************/
+
+@media screen and (max-width: 1100px) {
+    .intro-text {
+        top: 18vh;
+    }
+    .intro-text p {
+        margin-left: 40vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .intro-text {
+        top: 13vh;
+    }
+    .intro-text p {
+        margin-left: 40vw;
+    }
+    .article-top-content {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .article-byline{
+        font-size: 1em;
+    }
+    .article-body > p, .article-body > h4 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .image-and-caption-film {
+        margin-right: 25vw;
+        margin-left: 25vw;
+    }
+    .scroll-image-film {
+        width: 50vw;
+    }
+    .image-and-caption-h {
+        margin-right: 15vw;
+        margin-left: 15vw;
+    }
+    .scroll-image-horizontal {
+        width: 70vw;
+    }
+    .image-and-caption-v {
+        margin-right: 25vw;
+        margin-left: 25vw;
+    }
+    .scroll-image-vertical {
+        width: 50vw;
+    }
+    #graph {
+        width: 88%;
+        padding-left: 7%;
+        padding-right: 5%;
+        top: 25vh;
+    }
+    .graph-text-div p, .graph-text-div h4 {
+        padding-right: 10%;
+        padding-left: 2%;
+    }
+    #joy {
+        background-image: url(media/joy.jpg);
+        background-position: center 13%;
+        background-size: cover;
+        height: 300vh;
+    }
+    .illo {
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .intro-text {
+        top: 35vh;
+    }
+    .intro-text p {
+        font-size: 15px;
+        line-height: 1.5em;
+        margin-bottom: 0;
+        padding: 10px;
+        margin-left: 10vw;
+    }
+    #graph {
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .graph-section-container {
+        display: block;
+        flex: nowrap;
+    }
+    .graph-div {
+        width: 100%;
+    }
+    .graph-text-div {
+        width: 100%;
+    }
+    .graph-text-div p, .graph-text-div h4 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #below-graph {
+        margin-top: 60px;
+    }
+    #coffee-animation {
+        margin-top: -8vh;
+        margin-bottom: -10vh;
+    }
+}
